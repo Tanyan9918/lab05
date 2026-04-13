@@ -1,0 +1,88 @@
+﻿@page "/users"
+@using lab05.Services
+@using lab05.Models
+@inject ILibraryService library
+
+<h3>Manage Users</h3>
+
+@if (editingUser != null)
+{
+
+    <h4>Edit User - ID: @editingUser.Id</h4>
+    <input placeholder="Name" @bind="editingUser.Name" class="form-control mb-1" />
+    <input placeholder="Email" @bind="editingUser.Email" class="form-control mb-1" />
+    <button class="btn btn-primary" @onclick="SaveEdit">Save Changes</button>
+    <button class="btn btn-secondary" @onclick="CancelEdit">Cancel</button>
+}
+
+<hr />
+<h4>Add New User</h4>
+<div class="form-group">
+    <input placeholder="Name" @bind="newName" class="form-control mb-1" />
+    <input placeholder="Email" @bind="newEmail" class="form-control mb-1" />
+    <button class="btn btn-success" @onclick="AddUser">Add User</button>
+</div>
+
+<hr />
+
+<h4>Users</h4>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in library.Users)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.Name</td>
+                <td>@user.Email</td>
+                <td>
+                    <button class="btn btn-primary btn-sm" @onclick="() => StartEdit(user)">Edit</button>
+                    <button class="btn btn-danger btn-sm" @onclick="() => DeleteUser(user.Id)">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<hr />
+
+
+@code {
+    string newName;
+    string newEmail;
+    User editingUser;
+
+    void AddUser()
+    {
+        library.AddUser(newName, newEmail);
+        newName = newEmail = string.Empty;
+    }
+
+    void DeleteUser(int id)
+    {
+        library.DeleteUser(id);
+    }
+
+    void StartEdit(User user)
+    {
+        editingUser = new User { Id = user.Id, Name = user.Name, Email = user.Email };
+    }
+
+    void SaveEdit()
+    {
+        library.EditUser(editingUser.Id, editingUser.Name, editingUser.Email);
+        editingUser = null;
+    }
+
+    void CancelEdit()
+    {
+        editingUser = null;
+    }
+}

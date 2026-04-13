@@ -1,0 +1,25 @@
+﻿@page "/"
+@using lab05.Services
+@using lab05.Models
+@inject ILibraryService library
+
+<h1>Library Management Systems</h1>
+
+<p>Manage books, users, and borrowed books</p>
+
+<div class="dashboard-buttons">
+    <a class="btn btn-primary m-2" href="/manage_books">Manage Books</a>
+    <a class="btn btn-primary m-2" href="/users">Manage Users</a>
+    <a class="btn btn-success m-2" href="/borrow">Borrow Book</a>
+    <a class="btn btn-warning m-2" href="/return">Return Book</a>
+    <a class="btn btn-info m-2" href="/borrowedbooks">View Borrowed Books</a>
+</div>
+
+<hr />
+
+<h3>Statistics</h3>
+<ul>
+    <li>Total Books Available: @library.Books.Count</li>
+    <li>Total Users: @library.Users.Count</li>
+    <li>Total Borrowed Books: @library.BorrowedBooks.Count</li>
+</ul>

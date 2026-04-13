@@ -1,0 +1,41 @@
+﻿@page "/borrowedbooks"
+@using lab05.Services
+@using lab05.Models
+@inject ILibraryService library
+
+
+<h3>Borrowed Books</h3>
+
+@if (library.BorrowedBooks.Any())
+{
+    @foreach (var entry in library.BorrowedBooks)
+    {
+        var userId = entry.Key;
+        var books = entry.Value;
+
+        var user = library.Users.FirstOrDefault(u => u.Id == userId);
+
+        <div class="card mb-3">
+            <div class="card-header">
+                User: @user?.Name (@user?.Email)
+            </div>
+            <ul class="list-group list-group-flush">
+                @foreach (var book in books)
+                {
+                    <li class="list-group-item">
+                        @book.Title by @book.Author (ISBN: @book.ISBN)
+                    </li>
+                }
+            </ul>
+        </div>
+    }
+}
+else
+{
+    <p>No borrowed books currently.</p>
+}
+
+
+@code {
+
+}

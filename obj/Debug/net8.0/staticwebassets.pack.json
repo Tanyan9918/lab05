@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\lab05.bundle.scp.css",
+      "PackagePath": "staticwebassets\\lab05.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.lab05.props",
+      "PackagePath": "build\\lab05.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.lab05.props",
+      "PackagePath": "buildMultiTargeting\\lab05.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.lab05.props",
+      "PackagePath": "buildTransitive\\lab05.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.lab05.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

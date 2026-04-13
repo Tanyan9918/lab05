@@ -1,0 +1,105 @@
+﻿@page "/manage_books"
+@using lab05.Services
+@using lab05.Models
+@inject ILibraryService library
+
+<h3>Manage Books</h3>
+
+<hr />
+@if (editingBook != null)
+{
+    <h4>Edit Book - ID: @editingBook.Id</h4>
+    <div class="form-group">
+        <input placeholder="Title" @bind="editingBook.Title" class="form-control mb-1" />
+        <input placeholder="Author" @bind="editingBook.Author" class="form-control mb-1" />
+        <input placeholder="ISBN" @bind="editingBook.ISBN" class="form-control mb-1" />
+        <button class="btn btn-primary" @onclick="SaveEdit">Save Changes</button>
+        <button class="btn btn-secondary" @onclick="CancelEdit">Cancel</button>
+    </div>
+}
+
+
+<h4>Add New Book</h4>
+<div class="form-group">
+    <input placeholder="Title" @bind="newTitle" class="form-control mb-1" />
+    <input placeholder="Author" @bind="newAuthor" class="form-control mb-1" />
+    <input placeholder="ISBN" @bind="newISBN" class="form-control mb-1" />
+    <button class="btn btn-success" @onclick="AddBook">Add Book</button>
+</div>
+
+<hr />
+
+<h4>Available Books</h4>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th>Available Copies</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var bookGroup in library.GetAvailableBooks())
+        {
+            <tr>
+                <td>@bookGroup.Book.Id</td>
+                <td>@bookGroup.Book.Title</td>
+                <td>@bookGroup.Book.Author</td>
+                <td>@bookGroup.Book.ISBN</td>
+                <td>@bookGroup.Count</td>
+                <td>
+                    <button class="btn btn-primary btn-sm" @onclick="() => StartEdit(bookGroup.Book)">Edit</button>
+                    <button class="btn btn-danger btn-sm" @onclick="() => DeleteBook(bookGroup.Book.Id)">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<hr />
+
+
+@code {
+    string newTitle;
+    string newAuthor;
+    string newISBN;
+
+    Books editingBook;
+
+    void AddBook()
+    {
+        library.AddBook(newTitle, newAuthor, newISBN);
+        newTitle = newAuthor = newISBN = string.Empty;
+    }
+
+    void DeleteBook(int id)
+    {
+        library.DeleteBook(id);
+    }
+
+    void StartEdit(Books book)
+    {
+        // Create a copy for editing
+        editingBook = new Books
+            {
+                Id = book.Id,
+                Title = book.Title,
+                Author = book.Author,
+                ISBN = book.ISBN
+            };
+    }
+
+    void SaveEdit()
+    {
+        library.EditBook(editingBook.Id, editingBook.Title, editingBook.Author, editingBook.ISBN);
+        editingBook = null;
+    }
+
+    void CancelEdit()
+    {
+        editingBook = null;
+    }
+}

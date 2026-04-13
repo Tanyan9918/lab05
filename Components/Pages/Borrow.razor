@@ -1,0 +1,38 @@
+﻿@page "/borrow"
+@using lab05.Services
+@using lab05.Models
+@inject ILibraryService library
+
+<h3>Borrow Book</h3>
+
+<hr />
+<select @bind="selectedUserId">
+    <option value="">Select User</option>
+    @foreach (var user in library.Users)
+    {
+        <option value="@user.Id">@user.Name</option>
+    }
+</select>
+
+<select @bind="selectedBookId">
+    <option value="">Select Book</option>
+    @foreach (var book in library.GetAvailableBooks())
+    {
+        <option value="@book.Book.Id">@book.Book.Title</option>
+    }
+</select>
+
+<button class="btn btn-success m-2" @onclick="Borrows">Borrow</button>
+
+<p>@message</p>
+
+@code {
+    int selectedUserId;
+    int selectedBookId;
+    string message;
+
+    void Borrows()
+    {
+        message = library.BorrowBook(selectedBookId, selectedUserId);
+    }
+}
