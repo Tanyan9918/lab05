@@ -3,9 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\super\\Downloads\\TestCases\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CC191197-2916-425E-BC51-CC9ACC302B1C}|..\\lab05Test\\lab05Test.csproj|c:\\users\\super\\documents\\schoolinfo\\csci-2910\\labs\\lab05\\lab05test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -25,38 +22,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\super\\Downloads\\TestCases\\Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Downloads\\TestCases\\Program.cs",
-              "ToolTip": "C:\\Users\\super\\Downloads\\TestCases\\Program.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Downloads\\TestCases\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T18:54:32.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05Test\\UnitTest1.cs",
               "RelativeDocumentMoniker": "..\\lab05Test\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05Test\\UnitTest1.cs",
               "RelativeToolTip": "..\\lab05Test\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAH4BAAAAAAAAAAAAAIgBAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T18:35:42.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LibraryService.cs",
               "DocumentMoniker": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\Services\\LibraryService.cs",
               "RelativeDocumentMoniker": "Services\\LibraryService.cs",
               "ToolTip": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\Services\\LibraryService.cs",
               "RelativeToolTip": "Services\\LibraryService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwAkAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAADwv2gAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-07T17:08:35.753Z",
               "EditorCaption": ""
