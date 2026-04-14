@@ -27,3 +27,4 @@ C:\Users\super\Documents\SchoolInfo\CSCI-2910\labs\lab05\lab05\obj\Debug\net8.0\
 C:\Users\super\Documents\SchoolInfo\CSCI-2910\labs\lab05\lab05\obj\Debug\net8.0\lab05.pdb
 C:\Users\super\Documents\SchoolInfo\CSCI-2910\labs\lab05\lab05\obj\Debug\net8.0\lab05.genruntimeconfig.cache
 C:\Users\super\Documents\SchoolInfo\CSCI-2910\labs\lab05\lab05\obj\Debug\net8.0\ref\lab05.dll
+C:\Users\super\Documents\SchoolInfo\CSCI-2910\labs\lab05\lab05\obj\Debug\net8.0\lab05.sourcelink.json

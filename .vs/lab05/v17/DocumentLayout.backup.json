@@ -3,40 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CC191197-2916-425E-BC51-CC9ACC302B1C}|..\\lab05Test\\lab05Test.csproj|c:\\users\\super\\documents\\schoolinfo\\csci-2910\\labs\\lab05\\lab05test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{764C4100-CEF1-4923-AA14-4DF371D824A0}|lab05.csproj|c:\\users\\super\\documents\\schoolinfo\\csci-2910\\labs\\lab05\\lab05\\services\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{764C4100-CEF1-4923-AA14-4DF371D824A0}|lab05.csproj|solutionrelative:services\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{764C4100-CEF1-4923-AA14-4DF371D824A0}|lab05.csproj|c:\\users\\super\\documents\\schoolinfo\\csci-2910\\labs\\lab05\\lab05\\components\\pages\\return.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{764C4100-CEF1-4923-AA14-4DF371D824A0}|lab05.csproj|solutionrelative:components\\pages\\return.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{764C4100-CEF1-4923-AA14-4DF371D824A0}|lab05.csproj|c:\\users\\super\\documents\\schoolinfo\\csci-2910\\labs\\lab05\\lab05\\models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{764C4100-CEF1-4923-AA14-4DF371D824A0}|lab05.csproj|solutionrelative:models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{764C4100-CEF1-4923-AA14-4DF371D824A0}|lab05.csproj|c:\\users\\super\\documents\\schoolinfo\\csci-2910\\labs\\lab05\\lab05\\data\\books.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{764C4100-CEF1-4923-AA14-4DF371D824A0}|lab05.csproj|solutionrelative:data\\books.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{764C4100-CEF1-4923-AA14-4DF371D824A0}|lab05.csproj|c:\\users\\super\\documents\\schoolinfo\\csci-2910\\labs\\lab05\\lab05\\components\\pages\\borrow.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{764C4100-CEF1-4923-AA14-4DF371D824A0}|lab05.csproj|solutionrelative:components\\pages\\borrow.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{764C4100-CEF1-4923-AA14-4DF371D824A0}|lab05.csproj|c:\\users\\super\\documents\\schoolinfo\\csci-2910\\labs\\lab05\\lab05\\components\\pages\\managebooks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{764C4100-CEF1-4923-AA14-4DF371D824A0}|lab05.csproj|solutionrelative:components\\pages\\managebooks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{764C4100-CEF1-4923-AA14-4DF371D824A0}|lab05.csproj|c:\\users\\super\\documents\\schoolinfo\\csci-2910\\labs\\lab05\\lab05\\components\\pages\\users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{764C4100-CEF1-4923-AA14-4DF371D824A0}|lab05.csproj|solutionrelative:components\\pages\\users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{764C4100-CEF1-4923-AA14-4DF371D824A0}|lab05.csproj|c:\\users\\super\\documents\\schoolinfo\\csci-2910\\labs\\lab05\\lab05\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{764C4100-CEF1-4923-AA14-4DF371D824A0}|lab05.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{764C4100-CEF1-4923-AA14-4DF371D824A0}|lab05.csproj|c:\\users\\super\\documents\\schoolinfo\\csci-2910\\labs\\lab05\\lab05\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{764C4100-CEF1-4923-AA14-4DF371D824A0}|lab05.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,123 +17,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Books.cs",
-              "DocumentMoniker": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\Models\\Books.cs",
-              "RelativeDocumentMoniker": "Models\\Books.cs",
-              "ToolTip": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\Models\\Books.cs",
-              "RelativeToolTip": "Models\\Books.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05Test\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\lab05Test\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05Test\\UnitTest1.cs",
+              "RelativeToolTip": "..\\lab05Test\\UnitTest1.cs",
+              "ViewState": "AgIAAH4BAAAAAAAAAAAAAIgBAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T17:13:02.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Books.csv",
-              "DocumentMoniker": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\Data\\Books.csv",
-              "RelativeDocumentMoniker": "Data\\Books.csv",
-              "ToolTip": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\Data\\Books.csv",
-              "RelativeToolTip": "Data\\Books.csv",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2026-04-07T17:12:28.884Z",
+              "WhenOpened": "2026-04-13T18:35:42.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Return.razor",
-              "DocumentMoniker": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\Components\\Pages\\Return.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Return.razor",
-              "ToolTip": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\Components\\Pages\\Return.razor*",
-              "RelativeToolTip": "Components\\Pages\\Return.razor*",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-07T17:11:42.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "LibraryService.cs",
               "DocumentMoniker": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\Services\\LibraryService.cs",
               "RelativeDocumentMoniker": "Services\\LibraryService.cs",
               "ToolTip": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\Services\\LibraryService.cs",
               "RelativeToolTip": "Services\\LibraryService.cs",
-              "ViewState": "AgIAAKIAAAAAAAAAAADwv7AAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAADwv2gAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-07T17:08:35.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Borrow.razor",
-              "DocumentMoniker": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\Components\\Pages\\Borrow.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Borrow.razor",
-              "ToolTip": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\Components\\Pages\\Borrow.razor",
-              "RelativeToolTip": "Components\\Pages\\Borrow.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-07T17:04:47.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ManageBooks.razor",
-              "DocumentMoniker": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\Components\\Pages\\ManageBooks.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\ManageBooks.razor",
-              "ToolTip": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\Components\\Pages\\ManageBooks.razor",
-              "RelativeToolTip": "Components\\Pages\\ManageBooks.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-07T16:58:19.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Users.razor",
-              "DocumentMoniker": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\Components\\Pages\\Users.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Users.razor",
-              "ToolTip": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\Components\\Pages\\Users.razor",
-              "RelativeToolTip": "Components\\Pages\\Users.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-07T16:57:35.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-07T15:42:30.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\super\\Documents\\SchoolInfo\\CSCI-2910\\labs\\lab05\\lab05\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-07T15:42:36.66Z",
               "EditorCaption": ""
             }
           ]
